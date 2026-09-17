@@ -1,6 +1,6 @@
 Package: com.sushibta.a510player
 Name: TAsmart
-Version: 0.5.2-stable-recovery
+Version: 0.5.3-stable-stream
 Architecture: iphoneos-arm64
 Description: Direct low-latency RTSP/H264 player test for 70mai A510.
 Maintainer: sushibta25-design
