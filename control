@@ -1,8 +1,8 @@
 Package: com.sushibta.tasmart
 Name: TAsmart
-Version: 0.1-probe1
+Version: 0.2-host-probe1
 Architecture: iphoneos-arm64e
-Description: Safe CarPlay-side A510 CarPlay scene/bridge probe. Does not modify video pipeline.
+Description: Dual-process MiniBridge probe for A510/TAsmart scene handle and CarPlay presentation-host discovery.
 Maintainer: sushibta25-design
 Author: sushibta25-design
 Section: Tweaks
