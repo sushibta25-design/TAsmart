@@ -1,8 +1,8 @@
 Package: com.sushibta.tasmart
 Name: TAsmart
-Version: 0.2-safe-carplayprobe1
+Version: 0.1.1-recovery
 Architecture: iphoneos-arm64e
-Description: Safe rootless CarPlay-only scene/window probe. No SpringBoard injection and no private API activation calls.
+Description: Recovery baseline that does not inject into CarPlay.app or SpringBoard.
 Maintainer: sushibta25-design
 Author: sushibta25-design
 Section: Tweaks
