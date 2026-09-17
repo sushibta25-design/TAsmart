@@ -1,0 +1,9 @@
+Package: com.sushibta.a510minibridge
+Name: A510MiniBridge
+Version: 0.1-probe1
+Architecture: iphoneos-arm64e
+Description: Safe CarPlay-side A510 scene/bridge probe. Does not modify video pipeline.
+Maintainer: sushibta25-design
+Author: sushibta25-design
+Section: Tweaks
+Depends: mobilesubstrate | ellekit
