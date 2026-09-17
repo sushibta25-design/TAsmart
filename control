@@ -1,9 +1,8 @@
-Package: com.sushibta.tasmart
+Package: com.sushibta.a510player
 Name: TAsmart
-Version: 0.1.1-recovery
-Architecture: iphoneos-arm64e
-Description: Recovery baseline that does not inject into CarPlay.app or SpringBoard.
+Version: 0.5.2-stable-recovery
+Architecture: iphoneos-arm64
+Description: Direct low-latency RTSP/H264 player test for 70mai A510.
 Maintainer: sushibta25-design
 Author: sushibta25-design
-Section: Tweaks
-Depends: mobilesubstrate | ellekit
+Section: Applications

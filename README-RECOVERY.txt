@@ -1,15 +1,10 @@
-TAsmart v0.1.1 recovery
+TAsmart 0.5.2 stable recovery
 
 Purpose:
-- Remove all CarPlay.app and SpringBoard injection.
-- Restore CarPlay connectivity before any further MiniBridge experiments.
-- Inject only into com.sushibta.a510player and write /var/mobile/TAsmartRecovery.log.
+- Roll back the experimental Vision/CoreML AI integration that was added after the last working A510 stream baseline.
+- Keep bundle identifier/executable compatibility with com.sushibta.a510player / A510Player.
+- Change only visible branding to TAsmart.
+- No MiniBridge/CarPlay hooks are added to the app.
+- Test iPhone launch first, then CarBridge ON/OFF.
 
-Test:
-1. Replace the four project files with this ZIP and build.
-2. Uninstall the currently installed TAsmart package first if possible.
-3. Install the new 0.1.1-recovery DEB and respring.
-4. Confirm CarPlay connects normally.
-5. Open TAsmart/A510Player once and optionally check /var/mobile/TAsmartRecovery.log.
-
-Do not continue to v0.2-safe.
+If this build launches again, re-add AI later behind an opt-in module after the stream/CarPlay baseline is stable.
