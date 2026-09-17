@@ -1,4 +1,4 @@
-A510MiniBridge v0.1
+TAsmart v0.1
 
 Mục tiêu:
 - Không sửa stream/video.
@@ -12,7 +12,7 @@ Test:
 3. Kết nối CarPlay.
 4. Mở A510Player trên iPhone một lần.
 5. Trên iPhone lấy log:
-   cat /var/mobile/A510MiniBridge.log
+   cat /var/mobile/TAsmart.log
 6. Gửi log lại.
 
 Nếu v0.1 thấy được SBApplication/scene handle, v0.2 mới thêm activation + presentation host.
